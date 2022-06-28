@@ -19,6 +19,14 @@ immutable_ctx = []
 manage_clipboard = ["arboard", "thread_local"]
 open_url = ["webbrowser"]
 
+cint = ["egui/cint"]
+egui_default = ["egui/default"]
+default_fonts = ["egui/default_fonts"]
+extra_asserts = ["egui/extra_asserts"]
+extra_debug_asserts = ["egui/extra_debug_asserts"]
+mint = ["egui/mint"]
+persistence = ["egui/persistence"]
+
 [dependencies]
 bevy = { version = "0.7", default-features = false, features = ["bevy_render", "bevy_core_pipeline"] }
 egui = { version = "0.18", features = ["bytemuck"] }
